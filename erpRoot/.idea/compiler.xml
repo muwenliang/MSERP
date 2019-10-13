@@ -19,6 +19,7 @@
       <module name="erpService_1" target="1.8" />
       <module name="erpSservice-05-eureka-6001" target="1.8" />
       <module name="erpSservice-05-eureka-6002" target="1.8" />
+      <module name="sdfsd" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
