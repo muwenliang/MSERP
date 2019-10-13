@@ -15,7 +15,7 @@ public class ProductController_Consumer {
 
     //private static final String REST_URL_PREFIX = "http://localhost:8001";
     // 修改为Eureka注册中心的地址
-    private static final String REST_URL_PREFIX = "http://erpService_1";
+    private static final String REST_URL_PREFIX = "http://erpserviceone";
 
     @Autowired
     private RestTemplate restTemplate;
