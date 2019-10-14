@@ -2,19 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0c1ab160-a58a-44e0-aacb-af7fd69c5f2c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../erpservice-zuul-gateway-7001/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../erpservice-zuul-gateway-7001/src/main/java/com/jiubo/erp/ZuulServer_7001.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../erpservice-zuul-gateway-7001/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../erpservice-zuul-gateway-7001/src/main/java/com/jiubo/erp/filter/LoginFilter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../erpService-consumer-product-feign/src/main/java/com/jiubo/erp/controller/ProductController_Feign.java" beforeDir="false" afterPath="$PROJECT_DIR$/../erpService-consumer-product-feign/src/main/java/com/jiubo/erp/controller/ProductController_Feign.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../erpService-consumer-product-feign/src/main/java/com/jiubo/erp/service/ProductClientService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../erpService-consumer-product-feign/src/main/java/com/jiubo/erp/service/ProductClientService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../erpService-consumer-product-feign/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../erpService-consumer-product-feign/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../erpService-consumer-product-feign/target/classes/com/jiubo/erp/controller/ProductController_Feign.class" beforeDir="false" afterPath="$PROJECT_DIR$/../erpService-consumer-product-feign/target/classes/com/jiubo/erp/controller/ProductController_Feign.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../erpService-consumer-product-feign/target/classes/com/jiubo/erp/service/ProductClientService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../erpService-consumer-product-feign/target/classes/com/jiubo/erp/service/ProductClientService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../erpService-provider-product-hystrix-8001/target/classes/com/jiubo/erp/ProductProvider_hystrix_8001.class" beforeDir="false" afterPath="$PROJECT_DIR$/../erpService-provider-product-hystrix-8001/target/classes/com/jiubo/erp/ProductProvider_hystrix_8001.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/../erpService-provider-product-8001/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -119,32 +108,32 @@
     <session id="276793225">
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="65" />
+          <entry key="java" value="67" />
           <entry key="xml" value="19" />
-          <entry key="yml" value="17" />
+          <entry key="yml" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="65" />
+          <entry key="JAVA" value="67" />
           <entry key="XML" value="19" />
-          <entry key="YAML" value="17" />
+          <entry key="YAML" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="8" />
-          <entry key="java" value="96" />
+          <entry key="java" value="142" />
           <entry key="xml" value="20" />
-          <entry key="yml" value="45" />
+          <entry key="yml" value="58" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="96" />
+          <entry key="JAVA" value="142" />
           <entry key="PLAIN_TEXT" value="8" />
           <entry key="XML" value="20" />
-          <entry key="YAML" value="45" />
+          <entry key="YAML" value="58" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.lifecycle.project">
@@ -160,11 +149,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../erpservice-zuul-gateway-7001/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="25" column="30" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
+            <state relative-caret-position="203">
+              <caret line="26" column="33" lean-forward="true" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../erpservice-zuul-gateway-7001/src/main/java/com/jiubo/erp/ZuulServer_7001.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#334#335#0" expanded="true" />
+                <element signature="e#400#401#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -226,6 +229,7 @@
         <option value="$PROJECT_DIR$/../erpService-consumer-product-feign/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/../erpService-provider-product-hystrix-8001/src/main/java/com/jiubo/erp/ProductProvider_hystrix_8001.java" />
         <option value="$PROJECT_DIR$/../erpservice-zuul-gateway-7001/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/../erpservice-zuul-gateway-7001/src/main/java/com/jiubo/erp/filter/LoginFilter.java" />
       </list>
     </option>
   </component>
@@ -296,6 +300,21 @@
               <item name="erpservice-zuul-gateway-7001" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="erpRoot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="erpservice-zuul-gateway-7001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="erp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="erpRoot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="erpservice-zuul-gateway-7001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -317,7 +336,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571040102027" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571041461181" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -454,12 +473,12 @@
       <workItem from="1570870698257" duration="154000" />
       <workItem from="1571013013337" duration="7576000" />
       <workItem from="1571030707148" duration="3279000" />
-      <workItem from="1571035313097" duration="3674000" />
+      <workItem from="1571035313097" duration="5071000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45217000" />
+    <option name="totallyTimeSpent" value="46614000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -474,7 +493,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2774799" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2774799" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -488,7 +507,7 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info active="true" anchor="bottom" id="Run Dashboard" order="6" sideWeight="0.49865952" visible="true" weight="0.49632892" />
+      <window_info anchor="bottom" id="Run Dashboard" order="6" sideWeight="0.49865952" visible="true" weight="0.49632892" />
       <window_info anchor="bottom" id="TODO" order="7" weight="0.32892805" />
       <window_info anchor="bottom" id="Spring" order="8" weight="0.32892805" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32892805" />
@@ -554,13 +573,6 @@
     <find-history />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://D:/springBoot/maven-repository/mysql/mysql-connector-java/8.0.13/mysql-connector-java-8.0.13.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="33" column="25" lean-forward="true" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/springBoot/maven-repository/org/mybatis/mybatis/3.4.6/mybatis-3.4.6.jar!/org/apache/ibatis/binding/MapperMethod.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
@@ -979,6 +991,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../erpservice-zuul-gateway-7001/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="26" column="21" lean-forward="true" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../erpservice-zuul-gateway-7001/src/main/java/com/jiubo/erp/filter/LoginFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="27" lean-forward="true" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#213#214#0" expanded="true" />
+            <element signature="e#253#254#0" expanded="true" />
+            <element signature="e#304#305#0" expanded="true" />
+            <element signature="e#358#359#0" expanded="true" />
+            <element signature="e#409#410#0" expanded="true" />
+            <element signature="e#463#464#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../erpservice-zuul-gateway-7001/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="26" column="33" lean-forward="true" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../erpservice-zuul-gateway-7001/src/main/java/com/jiubo/erp/ZuulServer_7001.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -988,20 +1030,6 @@
             <element signature="e#334#335#0" expanded="true" />
             <element signature="e#400#401#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../erpservice-zuul-gateway-7001/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="26" column="21" lean-forward="true" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../erpservice-zuul-gateway-7001/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="25" column="30" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
         </state>
       </provider>
     </entry>
