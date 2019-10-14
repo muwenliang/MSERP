@@ -18,6 +18,7 @@
         <module>../erpService-provider-product-hystrix-8001</module>
         <module>../erpservice-hystrix-dashboard-9001</module>
         <module>../erpservice-zuul-gateway-7001</module>
+        <module>../erpservice-config-server-5001</module>
     </modules>
 
     <!--父工程 删掉src，用来存储公共的库文件-->
