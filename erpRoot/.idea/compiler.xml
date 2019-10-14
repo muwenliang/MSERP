@@ -12,6 +12,7 @@
         <module name="erpService-provider-product-8001" />
         <module name="erpService-provider-product-8002" />
         <module name="erpService-provider-product-hystrix-8001" />
+        <module name="erpservice-zuul-gateway-7001" />
         <module name="erpSservice-05-eureka-6001" />
         <module name="erpSservice-05-eureka-6002" />
       </profile>

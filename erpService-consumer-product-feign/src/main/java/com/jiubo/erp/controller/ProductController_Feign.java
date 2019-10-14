@@ -25,6 +25,7 @@ public class ProductController_Feign {
 
     @RequestMapping(value = "/consumer/product/get/{id}")
     public Product get(@PathVariable("id") Long id) {
+        System.out.println("id:"+id);
         return service.get(id);
     }
 

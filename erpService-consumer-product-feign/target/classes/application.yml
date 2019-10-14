@@ -8,7 +8,7 @@ eureka:
     serviceUrl:
       defaultZone: http://eureka6001.com:6001/eureka/,http://eureka6002.com:6002/eureka/
 
-# 需要开启hystrix
-feign:
-  hystrix:
-    enabled: true
+## 需要开启hystrix
+#feign:
+#  hystrix:
+#    enabled: true
