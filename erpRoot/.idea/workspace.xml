@@ -2,17 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0c1ab160-a58a-44e0-aacb-af7fd69c5f2c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../erpservice-config-server-5001/erpservice-config-server-5001.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../erpservice-config-server-5001/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../erpservice-config-server-5001/src/main/java/com/jiubo/erp/ConfigServer_5001.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../erpservice-config-server-5001/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../erpservice-config-client-8080/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../erpservice-config-client-8080/src/main/java/com/jiubo/erp/ConfigClient_8080.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../erpservice-config-client-8080/src/main/java/com/jiubo/erp/controller/ConfigClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../erpservice-config-client-8080/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../erpservice-config-client-8080/src/main/resources/bootstrap.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../erpService-provider-product-8001/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../erpService-provider-product-8001/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../erpService-provider-product-hystrix-8001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../erpService-provider-product-hystrix-8001/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../erpservice-hystrix-dashboard-9001/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../erpservice-hystrix-dashboard-9001/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../erpservice-config-server-5001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../erpservice-config-server-5001/src/main/resources/application.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/../erpService-provider-product-8001/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -26,6 +25,7 @@
     <ignored path="$PROJECT_DIR$/../erpservice-hystrix-dashboard-9001/target/" />
     <ignored path="$PROJECT_DIR$/../erpservice-zuul-gateway-7001/target/" />
     <ignored path="$PROJECT_DIR$/../erpservice-config-server-5001/target/" />
+    <ignored path="$PROJECT_DIR$/../erpservice-config-client-8080/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,42 +119,42 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="erpConfig" value="1" />
-          <entry key="java" value="82" />
-          <entry key="xml" value="26" />
-          <entry key="yml" value="23" />
+          <entry key="java" value="92" />
+          <entry key="xml" value="28" />
+          <entry key="yml" value="48" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="82" />
+          <entry key="JAVA" value="92" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="XML" value="26" />
-          <entry key="YAML" value="23" />
+          <entry key="XML" value="28" />
+          <entry key="YAML" value="48" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="8" />
-          <entry key="java" value="157" />
-          <entry key="xml" value="26" />
-          <entry key="yml" value="76" />
+          <entry key="java" value="178" />
+          <entry key="xml" value="27" />
+          <entry key="yml" value="121" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="157" />
+          <entry key="JAVA" value="178" />
           <entry key="PLAIN_TEXT" value="8" />
-          <entry key="XML" value="26" />
-          <entry key="YAML" value="76" />
+          <entry key="XML" value="27" />
+          <entry key="YAML" value="121" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="2" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
     </session>
@@ -162,19 +162,31 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../erpService-provider-product-hystrix-8001/src/main/resources/application.yml">
+        <entry file="file://$PROJECT_DIR$/../erpservice-config-client-8080/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="35" column="15" lean-forward="true" selection-start-line="35" selection-start-column="15" selection-end-line="35" selection-end-column="15" />
+            <state relative-caret-position="157">
+              <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../erpservice-config-client-8080/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../erpService-provider-product-hystrix-8001/pom.xml">
+        <entry file="file://$PROJECT_DIR$/../erpservice-config-client-8080/src/main/java/com/jiubo/erp/ConfigClient_8080.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="22" column="8" lean-forward="true" selection-start-line="22" selection-start-column="8" selection-end-line="25" selection-end-column="21" />
+            <state relative-caret-position="114">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -236,11 +248,16 @@
         <option value="$PROJECT_DIR$/../erpservice-zuul-gateway-7001/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/../erpservice-zuul-gateway-7001/src/main/java/com/jiubo/erp/filter/LoginFilter.java" />
         <option value="$PROJECT_DIR$/../erpservice-config-server-5001/pom.xml" />
-        <option value="$PROJECT_DIR$/../erpservice-config-server-5001/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/../erpservice-config-server-5001/src/main/java/com/jiubo/erp/ConfigServer_5001.java" />
         <option value="$PROJECT_DIR$/../erpService-provider-product-8001/pom.xml" />
         <option value="$PROJECT_DIR$/../erpservice-hystrix-dashboard-9001/pom.xml" />
         <option value="$PROJECT_DIR$/../erpService-provider-product-hystrix-8001/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/../erpservice-config-client-8080/pom.xml" />
+        <option value="$PROJECT_DIR$/../erpservice-config-client-8080/src/main/java/com/jiubo/erp/controller/ConfigClient.java" />
+        <option value="$PROJECT_DIR$/../erpservice-config-client-8080/src/main/java/com/jiubo/erp/ConfigClient_8080.java" />
+        <option value="$PROJECT_DIR$/../erpservice-config-server-5001/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/../erpservice-config-client-8080/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/../erpservice-config-client-8080/src/main/resources/bootstrap.yml" />
       </list>
     </option>
   </component>
@@ -293,6 +310,28 @@
           <expand>
             <path>
               <item name="erpRoot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="erpservice-config-client-8080" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="erpRoot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="erpservice-config-client-8080" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="erpRoot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="erpservice-config-client-8080" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="erpRoot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="erpservice-config-client-8080" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="erpRoot" type="b2602c69:ProjectViewProjectNode" />
               <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
             </path>
           </expand>
@@ -310,7 +349,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571053017146" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571377324944" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -345,7 +384,33 @@
     </option>
     <option name="contentProportion" value="0.21994536" />
   </component>
-  <component name="RunManager" selected="Spring Boot.ProductProvider_hystrix_8001">
+  <component name="RunManager" selected="Spring Boot.ConfigClient_8080">
+    <configuration name="ConfigClient_8080" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="erpservice-config-client-8080" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jiubo.erp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jiubo.erp.ConfigClient_8080" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigServer_5001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="erpservice-config-server-5001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jiubo.erp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jiubo.erp.ConfigServer_5001" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HystrixDashboard_9001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="erpservice-hystrix-dashboard-9001" />
       <extension name="coverage">
@@ -355,19 +420,6 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.jiubo.erp.HystrixDashboard_9001" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProductConsumer_feign" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="erpService-consumer-product-feign" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.jiubo.erp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jiubo.erp.ProductConsumer_feign" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -398,33 +450,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ZuulServer_7001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="erpservice-zuul-gateway-7001" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.jiubo.erp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jiubo.erp.ZuulServer_7001" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Spring Boot.ProductProvider_hystrix_8001" />
-      <item itemvalue="Spring Boot.ProductConsumer_feign" />
-      <item itemvalue="Spring Boot.ZuulServer_7001" />
       <item itemvalue="Spring Boot.HystrixDashboard_9001" />
       <item itemvalue="Spring Boot.ProductProvider_8001" />
+      <item itemvalue="Spring Boot.ConfigClient_8080" />
+      <item itemvalue="Spring Boot.ConfigServer_5001" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.ConfigClient_8080" />
+        <item itemvalue="Spring Boot.ConfigServer_5001" />
         <item itemvalue="Spring Boot.ProductProvider_hystrix_8001" />
         <item itemvalue="Spring Boot.HystrixDashboard_9001" />
         <item itemvalue="Spring Boot.ProductProvider_8001" />
-        <item itemvalue="Spring Boot.ZuulServer_7001" />
-        <item itemvalue="Spring Boot.ProductConsumer_feign" />
       </list>
     </recent_temporary>
   </component>
@@ -448,11 +487,12 @@
       <workItem from="1571013013337" duration="7576000" />
       <workItem from="1571030707148" duration="3279000" />
       <workItem from="1571035313097" duration="11139000" />
+      <workItem from="1571368847391" duration="5267000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52682000" />
+    <option name="totallyTimeSpent" value="57949000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -465,8 +505,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2774799" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28150135" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -480,7 +521,7 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Run Dashboard" order="6" sideWeight="0.49865952" visible="true" weight="0.5359765" />
+      <window_info active="true" anchor="bottom" id="Run Dashboard" order="6" sideWeight="0.49865952" visible="true" weight="0.5359765" />
       <window_info anchor="bottom" id="TODO" order="7" weight="0.32892805" />
       <window_info anchor="bottom" id="Spring" order="8" weight="0.32892805" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32892805" />
@@ -546,31 +587,6 @@
     <find-history />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../erpService-consumer-product-80/src/main/java/com/jiubo/erp/controller.java" />
-    <entry file="file://$PROJECT_DIR$/../erpSservice-05-eureka-6002/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../erpSservice-05-eureka-6001/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../erpSservice-05-eureka-6002/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/springBoot/maven-repository/org/springframework/cloud/spring-cloud-starter-netflix-eureka-client/2.0.2.RELEASE/spring-cloud-starter-netflix-eureka-client-2.0.2.RELEASE.pom">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="uml://MAVEN/com.jiubo.erp:erpService-consumer-product-80:1.0-SNAPSHOT">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
@@ -796,9 +812,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
           <caret line="23" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="e#627#628#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -820,10 +833,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="49">
           <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-          <folding>
-            <element signature="e#341#342#0" expanded="true" />
-            <element signature="e#423#424#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -876,9 +885,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -889,13 +895,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../erpservice-config-server-5001/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="42" lean-forward="true" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../erpservice-zuul-gateway-7001/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="203">
@@ -903,21 +902,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/erpConfig">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../erpservice-config-server-5001/src/main/java/com/jiubo/erp/ConfigServer_5001.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#100#101#0" expanded="true" />
-            <element signature="e#168#169#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/erpConfig" />
     <entry file="file://$PROJECT_DIR$/../erpService-provider-product-8002/src/main/java/com/jiubo/erp/ProductProvider_8002.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -929,11 +914,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#334#335#0" expanded="true" />
-            <element signature="e#400#401#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -983,9 +963,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -996,17 +973,75 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../erpService-provider-product-hystrix-8001/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="35" column="15" lean-forward="true" selection-start-line="35" selection-start-column="15" selection-end-line="35" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../erpService-provider-product-hystrix-8001/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
-          <caret line="22" column="8" lean-forward="true" selection-start-line="22" selection-start-column="8" selection-end-line="25" selection-end-column="21" />
+          <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="25" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../erpService-provider-product-hystrix-8001/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="35" column="15" selection-start-line="35" selection-start-column="15" selection-end-line="35" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../erpservice-config-client-8080/src/main/java/com/jiubo/erp/controller/ConfigClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../erpservice-config-server-5001/src/main/java/com/jiubo/erp/ConfigServer_5001.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../erpservice-config-server-5001/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="10" lean-forward="true" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../erpservice-config-client-8080/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../erpservice-config-client-8080/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../erpservice-config-client-8080/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../erpservice-config-client-8080/src/main/java/com/jiubo/erp/ConfigClient_8080.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
