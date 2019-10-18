@@ -19,6 +19,8 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="erpservice-config-client-8080" target="1.8" />
+      <module name="erpservice-eureka-config-6001" target="1.8" />
       <module name="sdfsd" target="1.8" />
     </bytecodeTargetLevel>
   </component>
