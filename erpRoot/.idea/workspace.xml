@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0c1ab160-a58a-44e0-aacb-af7fd69c5f2c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../erpService-consumer-product-feign/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../erpService-consumer-product-feign/src/main/java/com/jiubo/erp/ProductConsumer_feign.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../erpService-consumer-product-feign/src/main/java/com/jiubo/erp/config/ConfigBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../erpService-consumer-product-feign/src/main/java/com/jiubo/erp/controller/ProductController_Feign.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../erpService-consumer-product-feign/src/main/java/com/jiubo/erp/service/ProductClientService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../erpService-consumer-product-feign/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="0c1ab160-a58a-44e0-aacb-af7fd69c5f2c" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/../erpService-provider-product-8001/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/../erpService-consumer-product-80/target/" />
@@ -68,7 +57,7 @@
     <session id="-476168658">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.5" value="2" />
           <entry key="project.opened" value="3" />
@@ -79,7 +68,7 @@
           <entry key="java" value="34" />
           <entry key="product" value="1" />
           <entry key="sql" value="1" />
-          <entry key="xml" value="8" />
+          <entry key="xml" value="10" />
           <entry key="yml" value="14" />
         </counts>
       </usages-collector>
@@ -88,14 +77,14 @@
           <entry key="Database Element" value="1" />
           <entry key="JAVA" value="34" />
           <entry key="Scratch" value="1" />
-          <entry key="XML" value="8" />
+          <entry key="XML" value="10" />
           <entry key="YAML" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="6" />
-          <entry key="java" value="26" />
+          <entry key="java" value="34" />
           <entry key="txt" value="17" />
           <entry key="xml" value="14" />
           <entry key="yml" value="30" />
@@ -103,7 +92,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="26" />
+          <entry key="JAVA" value="34" />
           <entry key="PLAIN_TEXT" value="23" />
           <entry key="XML" value="14" />
           <entry key="YAML" value="30" />
@@ -113,11 +102,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../erpService-consumer-product-feign/src/main/java/com/jiubo/erp/controller/ProductController_Feign.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
-              <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+              <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../erpService-provider-product-8001/src/main/resources/mybatis/mybatis.cfg.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../erpService-provider-product-8001/src/main/resources/mybatis/mapper/ProductMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="90" lean-forward="true" selection-start-line="4" selection-start-column="90" selection-end-line="4" selection-end-column="90" />
             </state>
           </provider>
         </entry>
@@ -147,9 +150,9 @@
         <option value="$PROJECT_DIR$/../erpService-provider-product-8002/src/main/java/com/jiubo/erp/ProductProvider_8002.java" />
         <option value="$PROJECT_DIR$/../erpService-provider-product-8002/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/../erpService-consumer-product-feign/pom.xml" />
-        <option value="$PROJECT_DIR$/../erpService-consumer-product-feign/src/main/java/com/jiubo/erp/controller/ProductController_Feign.java" />
         <option value="$PROJECT_DIR$/../erpService-consumer-product-feign/src/main/java/com/jiubo/erp/ProductConsumer_feign.java" />
         <option value="$PROJECT_DIR$/../erpService-consumer-product-feign/src/main/java/com/jiubo/erp/service/ProductClientService.java" />
+        <option value="$PROJECT_DIR$/../erpService-consumer-product-feign/src/main/java/com/jiubo/erp/controller/ProductController_Feign.java" />
       </list>
     </option>
   </component>
@@ -196,95 +199,6 @@
           <expand>
             <path>
               <item name="erpRoot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="erpService-consumer-product-feign" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="erpRoot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="erpService-consumer-product-feign" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="erpRoot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="erpService-consumer-product-feign" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="erpRoot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="erpService-consumer-product-feign" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="erpRoot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="erpService-consumer-product-feign" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="erpRoot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="erpService-consumer-product-feign" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="jiubo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="erpRoot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="erpService-consumer-product-feign" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="jiubo" type="462c0819:PsiDirectoryNode" />
-              <item name="erp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="erpRoot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="erpService-consumer-product-feign" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="jiubo" type="462c0819:PsiDirectoryNode" />
-              <item name="erp" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="erpRoot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="erpService-consumer-product-feign" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="jiubo" type="462c0819:PsiDirectoryNode" />
-              <item name="erp" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="erpRoot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="erpService-consumer-product-feign" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="jiubo" type="462c0819:PsiDirectoryNode" />
-              <item name="erp" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="erpRoot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="erpService-consumer-product-feign" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="erpRoot" type="b2602c69:ProjectViewProjectNode" />
               <item name="erpService-provider-product-8001" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -297,6 +211,40 @@
               <item name="erpService-provider-product-8001" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="erpRoot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="erpService-provider-product-8001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="erpRoot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="erpService-provider-product-8001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="erpRoot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="erpService-provider-product-8001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="jiubo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="erpRoot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="erpService-provider-product-8001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="jiubo" type="462c0819:PsiDirectoryNode" />
+              <item name="erp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="erpRoot" type="b2602c69:ProjectViewProjectNode" />
@@ -304,6 +252,23 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="erpRoot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="erpService-provider-product-8001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="erpRoot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="erpService-provider-product-8001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -320,7 +285,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1570950554947" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1570967709258" />
     <property name="database.console.LAST_STATE" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -447,12 +412,12 @@
       <updated>1570926625986</updated>
       <workItem from="1570926627254" duration="5490000" />
       <workItem from="1570940650080" duration="1742000" />
-      <workItem from="1570949341857" duration="968000" />
+      <workItem from="1570949341857" duration="1432000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8200000" />
+    <option name="totallyTimeSpent" value="8664000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -467,7 +432,7 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25679544" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25679544" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -490,7 +455,7 @@
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="bottom" id="Version Control" order="14" weight="0.32909605" />
-      <window_info active="true" anchor="bottom" id="Run Dashboard" order="15" visible="true" weight="0.3698795" />
+      <window_info anchor="bottom" id="Run Dashboard" order="15" visible="true" weight="0.3698795" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -588,16 +553,6 @@
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../erpService-provider-product-8001/src/main/resources/mybatis/mapper/ProductMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="90" lean-forward="true" selection-start-line="4" selection-start-column="90" selection-end-line="4" selection-end-column="90" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../erpService-provider-product-8001/src/main/resources/mybatis/mybatis.cfg.xml">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/../erpService-provider-product-8002/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -697,7 +652,17 @@
     <entry file="file://$PROJECT_DIR$/../erpService-consumer-product-feign/src/main/java/com/jiubo/erp/controller/ProductController_Feign.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+          <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../erpService-provider-product-8001/src/main/resources/mybatis/mybatis.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../erpService-provider-product-8001/src/main/resources/mybatis/mapper/ProductMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="90" lean-forward="true" selection-start-line="4" selection-start-column="90" selection-end-line="4" selection-end-column="90" />
         </state>
       </provider>
     </entry>
