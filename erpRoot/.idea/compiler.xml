@@ -6,13 +6,22 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="erpservice-config-client-8080" />
+        <module name="erpservice-config-server-5001" />
         <module name="erpService-consumer-product-80" />
         <module name="erpService-consumer-product-feign" />
+        <module name="erpservice-eureka-config-6001" />
+        <module name="erpservice-hystrix-dashboard-9001" />
         <module name="erpService-provider-product-8001" />
         <module name="erpService-provider-product-8002" />
+        <module name="erpService-provider-product-hystrix-8001" />
+        <module name="erpservice-zuul-gateway-7001" />
         <module name="erpSservice-05-eureka-6001" />
         <module name="erpSservice-05-eureka-6002" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="sdfsd" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

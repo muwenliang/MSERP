@@ -7,3 +7,8 @@ eureka:
     fetchRegistry: true # 服务发现，true从 Eureka 服务器中获取注册信息
     serviceUrl:
       defaultZone: http://eureka6001.com:6001/eureka/,http://eureka6002.com:6002/eureka/
+
+## 需要开启hystrix
+#feign:
+#  hystrix:
+#    enabled: true
