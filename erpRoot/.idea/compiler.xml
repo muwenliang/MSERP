@@ -12,6 +12,7 @@
         <module name="erpService-consumer-product-feign" />
         <module name="erpservice-eureka-config-6001" />
         <module name="erpservice-hystrix-dashboard-9001" />
+        <module name="erpservice-product-config-8001" />
         <module name="erpService-provider-product-8001" />
         <module name="erpService-provider-product-8002" />
         <module name="erpService-provider-product-hystrix-8001" />
